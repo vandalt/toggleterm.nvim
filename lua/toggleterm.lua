@@ -102,6 +102,7 @@ local function close_last_window(term)
   if only_one_window and vim.bo[term.bufnr].filetype == term_ft then
     if term:is_split() then
       vim.cmd("keepalt bnext")
+      term:__orphan()
     end
   end
 end

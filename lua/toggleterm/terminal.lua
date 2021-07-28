@@ -361,6 +361,13 @@ function Terminal:toggle(size, direction)
   return self
 end
 
+---@private
+---Remove references to window and size for a terminal
+function Terminal:__orphan()
+  self.window = nil
+  self.size = nil
+end
+
 --- get the toggle term number from
 --- the name e.g. term://~/.dotfiles//3371887:/usr/bin/zsh;#toggleterm#1
 --- the number in this case is 1
