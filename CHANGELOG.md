@@ -2,7 +2,6 @@
 
 ## [2.13.1](https://github.com/akinsho/toggleterm.nvim/compare/v2.13.0...v2.13.1) (2024-12-27)
 
-
 ### Bug Fixes
 
 * check for terminal win before check if is valid ([#622](https://github.com/akinsho/toggleterm.nvim/issues/622)) ([22aefd4](https://github.com/akinsho/toggleterm.nvim/commit/22aefd4445570ae2a0145aeeb6388caa88dfd7af)), closes [#435](https://github.com/akinsho/toggleterm.nvim/issues/435)
@@ -26,6 +25,7 @@
 ### Features
 
 * add shading_ratio option ([#580](https://github.com/akinsho/toggleterm.nvim/issues/580)) ([74ce690](https://github.com/akinsho/toggleterm.nvim/commit/74ce6904e10e9bf2b7ffde598afc106c1d61e59c))
+* add bracketed paste support to `send_lines_to_terminal` and Terminal:send.
 
 ## [2.11.0](https://github.com/akinsho/toggleterm.nvim/compare/v2.10.0...v2.11.0) (2024-04-22)
 
